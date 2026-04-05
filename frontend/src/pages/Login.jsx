@@ -42,28 +42,15 @@ export default function Login() {
 
   return (
     <div className="login-page">
-      {/* Decorative orbs */}
-      <div style={{
-        position: 'fixed', top: '15%', left: '10%',
-        width: 300, height: 300, borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(6,182,212,0.08) 0%, transparent 70%)',
-        filter: 'blur(60px)', pointerEvents: 'none'
-      }} />
-      <div style={{
-        position: 'fixed', bottom: '15%', right: '10%',
-        width: 350, height: 350, borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(139,92,246,0.08) 0%, transparent 70%)',
-        filter: 'blur(60px)', pointerEvents: 'none'
-      }} />
-
+      {/* Removed decorative neon orbs */}
       <div className="login-card glass-card">
         <div className="card-header">
           <div style={{
             width: 56, height: 56, borderRadius: 'var(--radius-lg)',
-            background: 'var(--gradient-brand)',
+            background: 'var(--accent-teal)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontSize: 24, fontWeight: 800, color: 'white',
-            boxShadow: '0 4px 20px rgba(6,182,212,0.3)',
+            fontSize: 24, fontWeight: 800, color: '#ffffff',
+            boxShadow: 'var(--shadow-sm)',
             marginBottom: 'var(--space-2)'
           }}>F</div>
           <h2>Welcome Back</h2>
