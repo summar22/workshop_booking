@@ -45,3 +45,32 @@ db.sqlite3
 #images/gif
 *.png
 *.gif
+
+# =========================
+# Custom / Virtual Environments
+# =========================
+venv/
+env/
+.env
+
+# =========================
+# React / Frontend (Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/npm-debug.log*
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/extensions.json
+
+# =========================
+# Uploads / Media / Logs
+# =========================
+workshop_app/data/
+workshop_app/logs/
+media/
