@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuth } from './context/AuthContext';
 import Layout from './components/Layout';
 import Login from './pages/Login';
+import Register from './pages/Register';
 import WorkshopStatistics from './pages/WorkshopStatistics';
 
 function App() {
@@ -42,10 +43,13 @@ function App() {
         <Route path="/login" element={
           user ? <Navigate to="/statistics" replace /> : <Login />
         } />
+        <Route path="/register" element={
+          user ? <Navigate to="/statistics" replace /> : <Register />
+        } />
         <Route path="/statistics" element={<WorkshopStatistics />} />
-        <Route path="/" element={<Navigate to="/statistics" replace />} />
+        <Route path="/" element={<Navigate to="/login" replace />} />
         {/* Catch-all: redirect to statistics */}
-        <Route path="*" element={<Navigate to="/statistics" replace />} />
+        <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </Layout>
   );
