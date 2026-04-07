@@ -124,7 +124,7 @@ export default function Login() {
   );
 }
 
-// ALL STYLING DEFINED HERE - NO CSS FILE NEEDED
+
 const styles = {
   pageWrapper: {
     width: '100%',
@@ -132,7 +132,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f4f7ff', // Subtle background
+    backgroundColor: '#f4f7ff', 
     padding: '20px'
   },
   container: {
@@ -141,11 +141,11 @@ const styles = {
     width: '100%',
     maxWidth: '1000px',
     gap: '30px',
-    alignItems: 'stretch', // Forces both cards to be same height
+    alignItems: 'stretch', 
   },
   cardBase: {
     flex: 1,
-    height: '580px', // Uniform Height
+    height: '580px', 
     backgroundColor: '#0f172a',
     borderRadius: '28px',
     overflow: 'hidden',

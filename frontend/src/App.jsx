@@ -4,6 +4,8 @@ import Layout from './components/Layout';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import WorkshopStatistics from './pages/WorkshopStatistics';
+import { HelmetProvider } from 'react-helmet-async';
+
 
 function App() {
   const { user, loading } = useAuth();
@@ -38,20 +40,23 @@ function App() {
   }
 
   return (
-    <Layout>
-      <Routes>
-        <Route path="/login" element={
-          user ? <Navigate to="/statistics" replace /> : <Login />
-        } />
-        <Route path="/register" element={
-          user ? <Navigate to="/statistics" replace /> : <Register />
-        } />
-        <Route path="/statistics" element={<WorkshopStatistics />} />
-        <Route path="/" element={<Navigate to="/login" replace />} />
-        {/* Catch-all: redirect to statistics */}
-        <Route path="*" element={<Navigate to="/login" replace />} />
-      </Routes>
-    </Layout>
+    <HelmetProvider>
+
+      <Layout>
+        <Routes>
+          <Route path="/login" element={
+            user ? <Navigate to="/statistics" replace /> : <Login />
+          } />
+          <Route path="/register" element={
+            user ? <Navigate to="/statistics" replace /> : <Register />
+          } />
+          <Route path="/statistics" element={<WorkshopStatistics />} />
+          <Route path="/" element={<Navigate to="/login" replace />} />
+          {/* Catch-all: redirect to statistics */}
+          <Route path="*" element={<Navigate to="/login" replace />} />
+        </Routes>
+      </Layout>
+    </HelmetProvider>
   );
 }
 
