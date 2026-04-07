@@ -59,10 +59,10 @@ The most significant challenge was achieving a **Seamless Visual Experience** ac
 ![Table After](./screenshots/after2.png)
 
 **Sign up page before:**  
-![Table before](./screenshots/before3.png)
+![Table before](./screenshots/sampleb.png)
 
 **Sign Up Page After:**  
-![Table After](./screenshots/signup.png)
+![Table After](./screenshots/sample.png)
 
 **Login Page Responsiveness:**
 ![login page responsive](./screenshots/loginpageresponsiveness.png)
