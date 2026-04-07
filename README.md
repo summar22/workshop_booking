@@ -20,6 +20,11 @@ The redesign prioritizes clarity and accessibility through a modern "app-like" e
 * **Visual Hierarchy**: Refined table alignment and spacing to ensure that workshop data remains the focal point, even when viewing complex datasets.
 * **Unified Theme**: Applied the dark-mode design system consistently across all charts and controls to ensure a cohesive user journey.
 
+### 🚀 Advanced SEO & Meta Management
+* **Automated Page Indexing**: Leveraged react-helmet-async to dynamically refresh document titles and meta descriptions, optimizing search engine crawlability for a seamless Single Page Application experience.
+* **Brand Visibility**: Improved user interface trust by replacing standard boilerplate titles with contextually relevant, brand-aligned browser tab labels.
+* **Social Preview Optimization**: Developed a centralized <SEO /> utility to manage Open Graph and Twitter Card properties, ensuring high-fidelity visual previews when links are distributed via LinkedIn or other social platforms.
+
 ### 📝 Registration & Success Flow
 * **Modern Card Architecture**: Replaced table-based forms with structured card layouts to improve readability and reduce user fatigue during data entry.
 * **Interactive Feedback**: Redesigned "Forgot Password" and "Reset Success" pages into clean, centered cards that provide clear, immediate visual feedback.
