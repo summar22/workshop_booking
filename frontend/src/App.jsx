@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import WorkshopStatistics from './pages/WorkshopStatistics';
+import ForgotPassword from './pages/ForgotPassword';
 import { HelmetProvider } from 'react-helmet-async';
 
 
@@ -50,6 +51,7 @@ function App() {
           <Route path="/register" element={
             user ? <Navigate to="/statistics" replace /> : <Register />
           } />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/statistics" element={<WorkshopStatistics />} />
           <Route path="/" element={<Navigate to="/login" replace />} />
           {/* Catch-all: redirect to statistics */}
