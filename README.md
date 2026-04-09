@@ -50,7 +50,16 @@ The most significant challenge was achieving a **Seamless Visual Experience** ac
 ![login Before](./screenshots/before1.png)
 
 **Home After:**  
-![Login After](./screenshots/after1.jpeg)
+![Login After](./screenshots/loginpage.png)
+
+**Home Tile effect :**  
+![Login After](./screenshots/tileeffect.png)
+
+**Forgot page before:**  
+![forgot before](./screenshots/forgotbefore.png)
+
+**Forgot page After:**  
+![forgot After](./screenshots/forgotpassword.png)
 
 **Workshop Statistics Before:**  
 ![Table Before](./screenshots/before2.png)
@@ -62,13 +71,20 @@ The most significant challenge was achieving a **Seamless Visual Experience** ac
 ![Table before](./screenshots/sampleb.png)
 
 **Sign Up Page After:**  
-![Table After](./screenshots/sample.png)
+![Table After](./screenshots/signup.png)
 
 **Login Page Responsiveness:**
-![login page responsive](./screenshots/loginpageresponsiveness.png)
+![login page responsive](./screenshots/loginreponse.png)
 
-**Page2 Responsiveness:**
-![login page responsive](./screenshots/page2responsiveness.png)
+**workshop statistics response:**
+![page2 responsive](./screenshots/page2responsiveness.png)
+
+
+**Signup page Responsiveness with tile effect:**
+![signup page responsive](./screenshots/signupresponse.png)
+
+**Forgot password page responsiveness:**
+![Forgot page responsive](./screenshots/forgotresponse.png)
 
 ---
 
